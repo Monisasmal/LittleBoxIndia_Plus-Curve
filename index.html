@@ -1,0 +1,719 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plus-Curve Product Page</title>
+    <link rel="stylesheet" href="plusCurve.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"> -->
+</head>
+
+<body>
+    <!-- Navbar start -->
+    <div class="nav">
+        <div class="top-bar">
+            <div class="social-icons">
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-youtube"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-whatsapp"></i>
+                <i class="fab fa-telegram-plane"></i>
+                <i class="fab fa-snapchat-ghost"></i>
+            </div>
+            <div class="menu-logo"><i class="fa-solid fa-bars"></i></div>
+            <div class="play">Download the Littlebox App from <a href="#">Play Store</a> <i class="fas fa-mobile-alt"></i></div>
+        </div>
+
+        <div class="header">
+            <div class="logo">littlebox</div>
+            <div class="right-menu">
+                <a href="#">Account</a>
+                <a href="#">Search</a>
+                <i class="fas fa-search" id="search"></i>
+                <a href="#">Cart</a>
+                <i class="fas fa-shopping-cart" id="cart"></i>
+            </div>
+        </div>
+        <div class="nav-bar">
+            <a href="#">Pick A Mood</a>
+            <a href="#">Men's <span class="new">New</span></a>
+            <a href="#">Clothing</a>
+            <a href="#">Footwear</a>
+            <a href="#">Plus-Curve</a>
+            <a href="#">New Arrivals</a>
+            <a href="#">Shop by Videos</a>
+            <a href="#">Next Day Dispatch</a>
+            <a href="#">Influencer Program</a>
+            <a href="#">Exchanges</a>
+            <a href="#">Track Your Order</a>
+        </div>
+    </div>
+
+    <!-- Navbar End -->
+    <div class="image-container">
+        <img src="./plus-curve-img/final project img.webp" alt="bannerImage">
+    </div>
+    <div class="button-container">
+        <button class="category-button">PC TOPS</button>
+        <button class="category-button">PC DRESS</button>
+        <button class="category-button">PC TROUSERS</button>
+        <button class="category-button">PC SETS</button>
+        <button class="category-button">PC T-SHIRTS</button>
+        <button class="category-button">PC SKIRTS</button>
+        <button class="category-button">PC HOODIES</button>
+        <button class="category-button">PC WOMEN'S JACKET</button>
+        <button class="category-button">PC MEN'S JACKET</button>
+        <button class="category-button">PC CROP TOP</button>
+    </div>
+    <div class="button-container-mobile">
+        <button class="categorys-button">PC TOPS</button>
+        <button class="categorys-button">PC DRESS</button>
+        <button class="categorys-button">SEE ALL....</button>
+    </div>
+    <header class="product-header">
+        <h1>Plus-Curve</h1>
+        <span>20 products</span>
+    </header>
+    <div class="sort-dropdown">
+        <label for="sort-by">Date, new to old 🔽</label>
+    </div>
+
+    <div class="container">
+        <aside class="filter-sidebar">
+            <h2>Filter ⏩</h2>
+            <div class="filter-section">
+                <label for="out-of-stock">Out of stock</label>
+                <button class="btn show">Show</button>
+                <button class="btn hide">Hide</button>
+            </div>
+            <div class="filter-section">
+                <label for="price">Price</label>
+                <div class="price-range">
+                    <input type="number" value="0">
+                    <input type="number" value="1499">
+                </div>
+                <input type="range" min="0" max="1499" value="0">
+            </div>
+            <div class="filter-section">
+                <label for="product-type">Product type</label>
+                <input type="checkbox" id="plus-curve"> Plus-Curve
+            </div>
+            <div class="filter-section">
+                <label for="product-type">Size</label>
+                <input type="checkbox"> 1XL <br>
+                <input type="checkbox"> 2XL<br>
+                <input type="checkbox"> 3XL <br>
+                <input type="checkbox"> 4XL <br>
+                <input type="checkbox"> 0XL <br>
+            </div>
+        </aside>
+
+        <main class="product-list">
+            <!-- Product Section -->
+            <section class="products">
+                <!-- product1 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide1" checked>
+                        <input type="radio" name="carousel" id="slide2">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img1">
+                                <img src="./plus-curve-img/Floral Knotted Split Midi Dress Cur_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img2">
+                                <img src="./plus-curve-img/Floral Knotted Split Midi Dress Cur_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide1" class="carousel-control left">&#10094;</label>
+                        <label for="slide2" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product2 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide3">
+                        <input type="radio" name="carousel" id="slide4">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img3">
+                                <img src="./plus-curve-img/Woven Square Neck Solid Ruffle_1.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img4">
+                                <img src="./plus-curve-img/Woven Square Neck Solid Ruffle_2.jpg" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide3" class="carousel-control left">&#10094;</label>
+                        <label for="slide4" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product3 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide5">
+                        <input type="radio" name="carousel" id="slide6">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Knitted Short Sleeve Bodycon Dres_1.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Knitted Short Sleeve Bodycon Dres_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide5" class="carousel-control left">&#10094;</label>
+                        <label for="slide6" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product4 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide7">
+                        <input type="radio" name="carousel" id="slide8">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Knitted Short Sleeve Bodycon Dr_3.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Knitted Short Sleeve Bodycon Dr_4.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide7" class="carousel-control left">&#10094;</label>
+                        <label for="slide8" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product5 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide9">
+                        <input type="radio" name="carousel" id="slide10">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Ruched Square Neck Pink Crop_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Ruched Square Neck Pink Crop_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide9" class="carousel-control left">&#10094;</label>
+                        <label for="slide10" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product6 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide11">
+                        <input type="radio" name="carousel" id="slide12">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Ruched Square Neck Black Crop_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Ruched Square Neck Black Crop_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide11" class="carousel-control left">&#10094;</label>
+                        <label for="slide12" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product7 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide13">
+                        <input type="radio" name="carousel" id="slide14">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Ruched Square Neck Off-White_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Ruched Square Neck Off-White_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide13" class="carousel-control left">&#10094;</label>
+                        <label for="slide14" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product8 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide15">
+                        <input type="radio" name="carousel" id="slide16">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Ruched Square Neck Chocolate_1.jpg" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Ruched Square Neck Chocolate_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide15" class="carousel-control left">&#10094;</label>
+                        <label for="slide16" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product9 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide17">
+                        <input type="radio" name="carousel" id="slide18">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short Black_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short Black_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide17" class="carousel-control left">&#10094;</label>
+                        <label for="slide18" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product10 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide19">
+                        <input type="radio" name="carousel" id="slide20">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide19" class="carousel-control left">&#10094;</label>
+                        <label for="slide20" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold Out</span></p>
+                </div>
+                <!-- product11 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide21">
+                        <input type="radio" name="carousel" id="slide22">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short Brown_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Short Brown_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide21" class="carousel-control left">&#10094;</label>
+                        <label for="slide22" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product12 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide23">
+                        <input type="radio" name="carousel" id="slide24">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Shor  Pink_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Asymmetrical Neck Ruched Shor  Pink_1.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide23" class="carousel-control left">&#10094;</label>
+                        <label for="slide24" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product13 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide25">
+                        <input type="radio" name="carousel" id="slide26">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Woven Square Neck Solid Ruffl Midi_1.png" alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Woven Square Neck Solid Ruffl Midi_2.png" alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide25" class="carousel-control left">&#10094;</label>
+                        <label for="slide26" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product14 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide27">
+                        <input type="radio" name="carousel" id="slide28">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/U-neckline Knotted Ruched Sleev Brown mini_1.png"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/U-neckline Knotted Ruched Sleev Brown mini_2.png"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide27" class="carousel-control left">&#10094;</label>
+                        <label for="slide28" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product15 -->
+                <div class="product">
+                    <span class="not-in-stock">Not in Stock</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide29">
+                        <input type="radio" name="carousel" id="slide30">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/U-neckline Contrasting Trim Solid Black Jumpsuit Curve & Plus_1.png"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/U-neckline Contrasting Trim Solid Black Jumpsuit Curve & Plus_2.WEBP"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide29" class="carousel-control left">&#10094;</label>
+                        <label for="slide30" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sold out</span></p>
+                </div>
+                <!-- product16 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide31">
+                        <input type="radio" name="carousel" id="slide32">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Middle Waist Leopard Print Ruffle Skirt_1.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Middle Waist Leopard Print Ruffle Skirt_2.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide31" class="carousel-control left">&#10094;</label>
+                        <label for="slide32" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product17 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide33">
+                        <input type="radio" name="carousel" id="slide34">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Rib Button Drawstring Midi Dress Brown Curve & Plus_1.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Rib Button Drawstring Midi Dress Brown Curve & Plus_2.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide33" class="carousel-control left">&#10094;</label>
+                        <label for="slide34" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product18 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide35">
+                        <input type="radio" name="carousel" id="slide36">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Solid Halter Knitted Brown Crop Top Curve & Plus_1.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Solid Halter Knitted Brown Crop Top Curve & Plus_2.webp"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide35" class="carousel-control left">&#10094;</label>
+                        <label for="slide36" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product19 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide37">
+                        <input type="radio" name="carousel" id="slide38">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Short Sleeve Crop T-Shirt With V-Neck & Wide Knotted Pant In Off-White Curve & Plus_1.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Short Sleeve Crop T-Shirt With V-Neck & Wide Knotted Pant In Off-White Curve & Plus_2.jpg"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide37" class="carousel-control left">&#10094;</label>
+                        <label for="slide38" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+                <!-- product20 -->
+                <div class="product">
+                    <span class="new-tag">New in</span>
+                    <div class="product-image-container">
+                        <!-- Radio buttons to control the carousel -->
+                        <input type="radio" name="carousel" id="slide39">
+                        <input type="radio" name="carousel" id="slide40">
+
+                        <!-- The carousel images -->
+                        <div class="carousel-images">
+                            <div class="carousel-image" id="img5">
+                                <img src="./plus-curve-img/Solid Drawstring Split Maxi Cappuccino Skirt Curve & Plus_1.webp"
+                                    alt="Dress 1">
+                            </div>
+                            <div class="carousel-image" id="img6">
+                                <img src="./plus-curve-img/Solid Drawstring Split Maxi Cappuccino Skirt Curve & Plus_2.jpg"
+                                    alt="Dress 2">
+                            </div>
+                        </div>
+
+                        <!-- Left and right control arrows -->
+                        <label for="slide39" class="carousel-control left">&#10094;</label>
+                        <label for="slide40" class="carousel-control right">&#10095;</label>
+                        <button class="quick-buy">Quick Buy</button>
+                    </div>
+                    <p>Floral Knotted Split Midi Dress</p>
+                    <p>Rs. 1,499.00 <span class="old-price">Rs. 2,298.00</span> <span class="sale">Sale</span></p>
+                </div>
+            </section>
+        </main>
+    </div>
+        <!-- Footer part start -->
+        <div class="footer">
+            <div class="footer-column">
+                <h3>Shop</h3>
+                <ul>
+                    <li><a href="#">New Arrivals</a></li>
+                    <li><a href="#">Tops</a></li>
+                    <li><a href="#">Flats & Flatforms</a></li>
+                    <li><a href="#">T-Shirts</a></li>
+                    <li><a href="#">Trousers</a></li>
+                    <li><a href="#">Oxfords & Boots</a></li>
+                    <li><a href="#">Heels & Platforms</a></li>
+                    <li><a href="#">Matching Sets</a></li>
+                    <li><a href="#">Best Selling</a></li>
+                </ul>
+            </div>
+            <div class="footer-column">
+                <h3>Support</h3>
+                <ul>
+                    <li><a href="#">Exchanges</a></li>
+                    <li><a href="#">Exchange Policy</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">FAQ</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Shipping</a></li>
+                    <li><a href="#">Terms of Service</a></li>
+                    <li><a href="#">Do not sell or share my personal information</a></li>
+                </ul>
+            </div>
+            <div class="footer-right">
+                <p>© Littlebox India 2022</p>
+                <div class="logo">littlebox</div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-x-twitter"></i></a>
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a><br><br>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-quora"></i></a>
+                    <a href="#"><i class="fab fa-telegram"></i></a>
+                    <a href="#"><i class="fab fa-snapchat"></i></a>
+                </div>
+            </div>
+
+            </div>
+            <hr>
+            <div class="footer-end">
+                <p>© 2024 Good Tribe Private Limited. All rights Reserved.</p>
+                <div class="endchips">
+                <img src="./plus-curve-img/VISA.svg" alt="VISA">
+                <img src="./plus-curve-img/i-Card.svg" alt="VISA">
+                <img src="./plus-curve-img/Paytm.svg" alt="VISA">
+                <img src="./plus-curve-img/Amexp.svg" alt="VISA">
+                <img src="./plus-curve-img/ru-pay.svg" alt="VISA">
+            </div>
+            </div>
+            
+            <!-- Footer End -->
+   
+</body>
+
+</html>
