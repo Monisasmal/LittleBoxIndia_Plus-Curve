@@ -397,6 +397,12 @@ input[type="range"] {
 /* Adjustments for small screens (phones, etc.) */
 
 @media screen and (max-width: 768px) {
+     .filter-sidebar{
+        width: 25%;
+    }
+    .product-list{
+        width: 70%;
+     }
     .product {
         width: 48%; /* 2 products per row on small screens */
     }
@@ -405,11 +411,15 @@ input[type="range"] {
 /* Adjustments for very small screens (small phones, etc.) */
 
 @media screen and (max-width: 480px) {
+   .filter-sidebar{
+        width: 0;
+    }
     .product {
         width: 100%; /* 1 product per row on very small screens */
+        margin: 10px 20px;
     }
     .product-list{
-        width: auto;
+       width: auto;
     }
     .product-header{
         margin: 10px;
