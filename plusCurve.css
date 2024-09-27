@@ -379,7 +379,7 @@ input[type="range"] {
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     width: 23%; /* Default for larger screens */
     box-sizing: border-box;
     transition: all 0.3s ease;
